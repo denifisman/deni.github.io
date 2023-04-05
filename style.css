@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font: 16px/28px arial, sans-serif;
+    background-color: #EAEAEA;
+    color: #333;
+}
+.container{
+    margin: auto;
+    width: 800px;
+    background-color: white;
+    padding: 20px;
+}
+.header{
+    background-color: white;
+    padding-bottom: 5px;
+    
+   
+}
+.header .judul{
+    font-weight: bold;
+    font-size: 30PX;
+    margin: 5px;
+    
+}
+.header ul li{
+    display: inline-block;
+    margin-top: 5px;
+    border: 1px solid #eee;
+    padding: 3px;
+    border-radius: 10px;
+    background-color: rgb(4, 146, 234);
+    margin-left: 8px;
+   
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+}
+
+.header a:hover{
+    background-color: lightskyblue;
+    color: red ;
+}
+.foto{
+   height: 400px;
+   background-size: cover;
+   background-image: url(foto.jpg);
+   background-position: 0px -1000px;
+   border-top: 5px solid rgb(4, 146, 234);
+   border-left: 5px solid rgb(4, 146, 234);
+   border-right: 5px solid rgb(4, 146, 234);
+   border-bottom: 5px solid rgb(4, 146, 234);
+   width: 800px;
+}
+.content{
+    margin-top: -1px;
+}
+.content .penulis{
+    margin-top: -10px;
+    font-size: 10px;
+    padding-bottom: -5px;
+    font-weight: normal;
+}
+.content h3{
+    font-size: 24px;
+}
+.content a{
+    text-decoration: none;
+    color: sandybrown;
+    
+}
+.content a:hover{
+    background-color: lightseagreen;
+    color: whitesmoke;
+}
+.footer{
+    background-color: #333;
+    color: #EAEAEA;
+    text-align: center;
+    padding: 18px;
+    
+}
+.fotopribadi a{
+    font-weight: bold;
+    font-size: 25PX;
+    text-align: center;
+}
+.fotopribadi .img2{
+    text-align: center;
+}
+.fotopribadi .img3{
+    text-align: right;
+}
+.fotopribadi .img4{
+    text-align: center;
+}
+
+
